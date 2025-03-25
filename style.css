@@ -1,5 +1,11 @@
+img {
+  width: 200px;
+  position: absolute;
+}
+
 .box {
   position: relative;
+  min-height: 200px;
 }
 
 .box .bush {
@@ -7,6 +13,8 @@
   height: auto;
   animation: bounce;
   animation-duration: 0.7s;
+  left: 0;
+  top: 0;
 }
 
 .box .bush:hover {
@@ -19,7 +27,7 @@
 .box .pokeball {
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 0%;
   transform: translate(-50%, 0);
   width: auto;
   height: 100%;
